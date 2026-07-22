@@ -1,0 +1,4 @@
+interface:
+  display_name: "Luau"
+  short_description: "Write clean, polished, intelligent Luau"
+  default_prompt: "Use $luau to write clean, polished, and maintainable Luau code."
