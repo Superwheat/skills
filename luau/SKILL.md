@@ -10,7 +10,7 @@ Do not overcomplicate the code by adding impossible edge cases. Do not use pract
 
 ### Think Before Coding
 
-**Don't assume without enough evidence. Don't hide confusion**
+**Don't assume without enough evidence. Don't hide confusion.**
 
 Before implementing:
 - State your assumptions explicitly. If uncertain, ask.
@@ -150,3 +150,4 @@ Before finishing:
 2. Check client/server trust boundaries.
 3. Run available formatter, linter, typechecker, and tests.
 4. Re-read the diff as a future maintainer.
+5. Re-ensure all the code you wrote follows all the guidelines of this skill.
