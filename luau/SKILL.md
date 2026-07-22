@@ -3,6 +3,8 @@ name: luau
 description: Use to write, review, refactor, debug, and optimize Luau code. Use for .luau or .lua files, ModuleScripts, server scripts, LocalScripts, Roblox services, remotes, typed APIs, architecture, performance, concurrency, and code-quality reviews.
 ---
 
+**Every guideline/rule in this skill is mandatory. Do not treat any rule as optional, less important, or ignorable unless the user explicitly asks you to.**
+
 ## 1. Proper code
 
 Produce Luau code that is maintanable, non-redundant and production ready. Do not pick shortcuts, hardcode, or create prototypes/single-use code when the output is expected to be final.
@@ -96,7 +98,7 @@ local message = `Player {playerName} earned {points} points.`
 
 ### Pcall usage
 
-- Code that is wrapped in `pcall` must be verifiably expected to fail in that environment, otherwise wrapping it is redundant.
+- Code that is wrapped in `pcall` must be verifiably expected to fail in that environment, otherwise wrapping it is redundant*.
 
 ## 6. Assumptions
 
