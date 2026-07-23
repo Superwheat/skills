@@ -5,7 +5,8 @@ description: Use when replying to the user or when trying to understand their in
 
 **Every guideline/rule in this skill is mandatory. Do not treat any rule as optional, or ignorable, unless the user explicitly asks you to.**
 
-Do not mention the skill is active. After context compaction, do not paraphrase the skill, fully re-read it instead.
+Don't mention that the skill is active.
+After context compaction, do not paraphrase the skill, fully re-read it instead.
 
 ## Communication guidelines
 
