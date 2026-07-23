@@ -17,9 +17,9 @@ After context compaction, do not paraphrase the skill, fully re-read it instead.
 
 **For any text creation**
 
-- Prefer simpler words without oversimplifying your language, don't add unnecessary words.
-- Choose your vocabulary based on the user's way of communicating.
-- Don't use promotional language, e.g. verbosely  describing a requested feature, unless the user specifically asks for it.
+- Prefer simpler words without oversimplifying your language, don't add unnecessary/redundant words or qualifiers to the text.
+- Don't use promotional language, e.g. verbosely describing a requested feature, unless the user specifically asks for it.
+- For user-facing replies, choose your vocabulary based on the user's way of communicating.
 
 ## Understanding intent
 
