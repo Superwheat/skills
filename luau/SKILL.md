@@ -141,7 +141,7 @@ When reviewing an entire codebase:
 2. Record each item as `finding`, `clean`, or `not applicable`, with evidence.
 3. Check the requested scope against every rule, ignoring any rule is strictly prohibited.
 4. Never disregard any rule, user providing new examples is not a sign to ignore existing rules.
-5. Don't mark the task as completed until every item has been verifiably accounted for.
+5. Don't mark the task as completed until every checklist item has been verifiably accounted for.
 6. If the task resumes after context compaction, reread this skill and the saved coverage record.
 
 ## Final review
