@@ -1,6 +1,6 @@
 ---
 name: anti-bootlick
-description: Invoke once, the first time; replying to the user / trying to understand their intent.
+description: Invoke once per conversation, before the first user-facing reply or intent interpretation. Invoke again only after context compaction.
 ---
 
 **Every guideline/rule in this skill is mandatory. Do not treat any rule as optional, or ignorable, unless the user explicitly asks you to.**
