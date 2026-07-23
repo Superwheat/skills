@@ -3,7 +3,7 @@ name: luau
 description: Use to write, review, refactor, debug, and optimize Luau code. Use for .luau or .lua files, ModuleScripts, server scripts, LocalScripts, Roblox services, remotes, typed APIs, architecture, performance, concurrency, and code-quality reviews.
 ---
 
-**Every guideline/rule in this skill is mandatory. Do not treat any rule as optional, less important, or ignorable unless the user explicitly asks you to.**
+**Every guideline/rule in this skill is mandatory. Do not treat any rule as optional, or ignorable, unless the user explicitly asks you to.**
 
 ## 1. Proper code
 
