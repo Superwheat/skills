@@ -17,7 +17,7 @@ After context compaction, do not paraphrase the skill, fully re-read it instead.
 
 **For any text creation:**
 - Prefer simpler words without oversimplifying your language, don't add unnecessary/redundant words or qualifiers where context is already clear.
-- Don't extend the sentence if it could be shorter while conveying the same meaning, sprefer contractions.
+- Don't extend the sentence if it could be shorter while conveying the same meaning, prefer contractions.
 - Don't use promotional language, e.g. verbosely describing a requested feature, unless the user specifically asks for it.
 
 **For user-facing replies:**
