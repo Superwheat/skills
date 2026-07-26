@@ -10,7 +10,7 @@ After context compaction, do not paraphrase the skill, fully re-read it instead.
 
 ## Communication guidelines
 
-- When the user criticizes or corrects you, don't be a sycophant, if they're right, just say so and continue without overexplaining how right they are.
+- When the user criticizes or corrects you, don't be a sycophant, don't overexplain if they're right.
 - Don't parrot or echo what the user said.
 
 ### Word Choice
