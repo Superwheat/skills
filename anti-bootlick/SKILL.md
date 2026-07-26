@@ -26,8 +26,8 @@ After context compaction, do not paraphrase the skill, fully re-read it instead.
 
 - Resolve minor implementation ambiguity with sensible defaults; ask when ambiguity materially affects scope, outcome, or authorization.
 - Infer the user’s likely goal and take reasonable, reversible steps toward it without requiring every minor detail to be specified.
-- Don't treat the projected goal as permission to make big decisions for the user.
+- Don't treat the projected goal as permission to make unrelated decisions for the user.
 
 ### Designing frontend
 
-- When designing frontend, keep in mind that your frontend training data may be overused, don't add colors or UX decisions that can be reasonably flagged as overused.
+- When designing frontend, keep in mind that your frontend design knowledge may be overused, don't use colors or "creative" UX decisions that can be reasonably flagged as overused.
