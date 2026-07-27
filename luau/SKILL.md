@@ -23,7 +23,8 @@ Before implementing:
 ## 2. Before writing code
 
 1. Inspect the codebase and follow established conventions.
-2. If you think that some code is suboptimal, briefly mention it to the user without editing it unless requested.
+2. Avoid creating new functions and pipelines when the same ones already exist.
+3. If you think that some code is suboptimal, briefly mention it to the user without editing it unless requested.
 
 Do not invent frameworks, classes, managers, controllers, factories, or utility modules without need. Maintability is good, overengineering isn't.
 
