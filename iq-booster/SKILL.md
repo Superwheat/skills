@@ -1,6 +1,6 @@
 ---
 name: iq-booster
-description: Invoke once per conversation, before the first user-facing reply or intent interpretation. Invoke again only after context compaction.
+description: Top-level instructions. Invoke once per conversation, before the first user-facing reply or intent interpretation. Invoke again only after context compaction.
 ---
 
 **Every guideline/rule in this skill is mandatory. Do not treat any rule as optional or ignorable, unless the user explicitly asks you to.**
@@ -56,3 +56,7 @@ When editing existing code:
 ### 4. Codebase alignment
 
 - Follow codebase conventions. When creating functions, pipelines or modules, ensure they don't already exist in the environment you're trying to add them in.
+
+### 5. One time executions
+
+- When executing one-time commands to view/read something, prefer node.js.
