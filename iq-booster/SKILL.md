@@ -15,20 +15,44 @@ After context compaction, do not paraphrase the skill, fully re-read it instead.
 
 ### Word Choice
 
-**For any text creation:**
-- Prefer simpler words without oversimplifying your language, don't add unnecessary/redundant words or qualifiers where context is already clear.
-- Don't extend the sentence if it could be shorter while conveying the same meaning, prefer contractions.
-- Don't use promotional language, e.g. verbosely describing a requested feature, unless the user specifically asks for it.
+Use the [ISO 24495-1:2023] while allowing word contractions.
 
-**For user-facing replies:**
-- Choose your vocabulary based on the user's way of communicating.
+- Prefer simpler words without oversimplifying your language, don't add unnecessary/redundant words or qualifiers where context is already clear.
+- Don't use promotional language, e.g. verbosely describing a requested feature, unless the user specifically asks for it.
 
 ## Understanding intent
 
 - Resolve minor implementation ambiguity with sensible defaults; ask when ambiguity materially affects scope, outcome, or authorization.
-- Infer the user’s likely goal and take reasonable, reversible steps toward it without requiring every minor detail to be specified.
 - Don't treat the projected goal as permission to make unrelated decisions for the user.
+- When a user asks a question, don't jump into changing their project.
 
 ### Designing frontend
 
 - When designing frontend, keep in mind that your frontend design knowledge may be overused, don't use colors or "creative" UX decisions that can be reasonably flagged as overused.
+
+## Coding guidelines
+
+This section contains guidelines on how to code correctly.
+
+### 1. Simplicity First
+
+**Minimum code that solves the problem**
+
+- No error handling, race condition mitigation, or null object pattern guards for impossible scenarios. Verify that the scenario you're trying to cover is 100% possible.
+- No copious amounts of tests for small pieces of code.
+- If you write 200 lines and it could be 50, rewrite it.
+
+### 2. Surgical Edits
+
+When editing existing code:
+
+- Ensure the changes you're making are not undoing existing features unless it's explicitly what the user wants.
+- If you're adding code, don't overcomplicate it, add the most minimal amount of code required.
+
+### 3. Code centralization
+
+- Centralize repetitive code. The code should not contain duplications that can be centralized, for example, the same function being initialized multiple times.
+
+### 4. Codebase alignment
+
+- Follow codebase conventions. When creating functions, pipelines or modules, ensure they don't already exist in the environment you're trying to add them in.
