@@ -28,7 +28,7 @@ Use the [ISO 24495-1:2023] while allowing word contractions.
 
 ### Designing frontend
 
-- When designing frontend, keep in mind that your frontend design knowledge may be overused, don't use colors or "creative" UX decisions that can be reasonably flagged as overused.
+- When designing frontend, don't rely on your frontend design knowledge too much as it may be overused, don't use colors or "creative" UX decisions that can be reasonably flagged as overused.
 
 ## Coding guidelines
 
